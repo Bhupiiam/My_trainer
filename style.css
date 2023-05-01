@@ -1,0 +1,69 @@
+
+body{
+    background-image: url("bgweb.jpg");
+    background-size: cover;
+}
+nav{
+    background-color: rgba(240, 248, 255, 0);
+    padding-bottom: 10px;
+}
+
+main{
+    text-align: center;
+    margin-top: 20%;
+    /* margin-left: -10%; */
+    background-color: rgba(240, 248, 255, 0.059);
+}
+
+.logo{
+    margin-top: -3%;
+    margin-left: -4%;
+    /* border: 1px solid black; */
+    /* border-spacing: none; */
+    border-radius: 100%;
+    width: 8%;
+    height: auto;
+}
+.red{
+color: red;
+}
+.mainlogo{
+    display: flex;
+
+}
+.logotext{
+    margin-top: -0.1%;
+    font-size: xx-large;
+}
+.flex
+{
+    float: left;
+}
+.li{
+    display: inline-block;
+}
+.dec{
+    size: 50%;
+    margin-left: -20%;
+}
+.reduce{
+    width: 30%;
+}
+.form-control{
+    width: 30%;
+    flex: ;
+}
+.input-group{
+    flex: 0;
+    position: none;
+}
+.data{
+    text-align: center;
+    background-color: aliceblue;
+    overflow: hidden;
+    width: 40%;
+    background-color: rgba(0, 0, 255, 0.258);
+}
+.maindata{
+    padding-left: 10%;
+}
