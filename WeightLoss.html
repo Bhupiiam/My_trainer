@@ -1,0 +1,260 @@
+<html>
+<head>
+    <link rel="stylesheet" href="WeightLoss.css">
+<link href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="back">
+<div id="navbar">
+
+    <div class="title">
+        <b>GYMNASIUM</b>
+    </div>
+
+<ul>
+<li>
+<a href="homepage.html">Home</a></li>
+<li>
+<a href="Programs.html">Programms</a><br>
+
+</li>
+<li>
+<a href="#">Services</a></li>
+<li>
+<a href="#">About us</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="side">
+  <img src="gmsa.jpg"/ height="200" width="315">
+  <h2>ABOUT GMSA</h2>
+  <p>
+GMSA Academy teaches Govt. of India Fitness Trainer Level 4, Personal Trainer (Beginner), Nutrition Consultant courses, including RPL (Recognition of prior learning). If you have a prior experience as a gym trainer or gym coach without certificate then you can apply for RPL and get certified which increases the value including salary. This certificate will be issued directly by Indian Govt. GMSA will be starting few more courses in 2019.
+</p>
+<h2>Weight Converter</h2>
+<p>
+  <label>Kilograms</label>
+  <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+</p>
+<p>Pounds: <span id="outputPounds"></span></p>
+
+<script>
+function weightConverter(valNum) {
+  document.getElementById("outputPounds").innerHTML=valNum*2.2046;
+}
+</script>
+<h1>BMI CALCULATOR</h1>
+ <script type="text/javascript">
+        function computeBMI()
+        {
+            
+            var height=Number(document.getElementById("height").value);
+            var heightunits=document.getElementById("heightunits").value;
+            var weight=Number(document.getElementById("weight").value);
+            var weightunits=document.getElementById("weightunits").value;
+
+
+            
+            if (heightunits=="inches") height/=39.3700787;
+            if (weightunits=="lb") weight/=2.20462;
+
+            
+            var BMI=weight/Math.pow(height,2);
+
+            
+            document.getElementById("output").innerText=Math.round(BMI*100)/100;
+
+            if (output<18.5)
+            document.getElementById("comment").value = "Underweight";
+            if (output>=18.5 && output<=25)
+            document.getElementById("comment").value = "Normal";
+            if (output>=25 && output<=30)
+            document.getElementById("comment").value = "Obese";
+            if (output>30)
+            document.getElementById("comment").value = "Overweight";
+            document.getElementById("answer").value = output; 
+        }
+    </script>
+	  <p>Enter your height: <input type="text" id="height"/>
+        <select type="multiple" id="heightunits">
+            <option value="metres" selected="selected">metres</option>
+            <option value="inches">inches</option>
+        </select>
+    </p>
+    <p>Enter your weight: <input type="text" id="weight"/>
+        <select type="multiple" id="weightunits">
+            <option value="kg" selected="selected">kilograms</option>
+            <option value="lb">pounds</option>
+        </select>
+    </p>
+    <input type="submit" value="computeBMI" onclick="computeBMI();">
+    <h1>Your BMI is: <span id="output">?</span></h1>
+
+    <p>
+Less than 18.5<br>
+Underweight18.5 to 25<br>
+Normal 25-30<br>
+Overweight More than 30 Obese
+.
+	</p> 
+   </div>
+   
+  <div class="main">
+<div class="container">
+<div class="box">
+<div class="imgbox">
+ <img src="WL1.jpg">
+</div>
+<div class="content">
+
+<div>
+<h2>
+
+</h2>
+<p></p>
+<a href="LEAN MODE.html"><b>START</b></a>
+</div>
+</div>
+
+</div>
+<div class="box">
+<div class="imgbox">
+ <img src="WL2.jpg">
+</div>
+<div class="content">
+<div>
+<h2>
+
+</h2>
+<p></p>
+<a href="GET RIPPED.html"><b>START</b></a>
+</div>
+</div>
+
+</div>
+<div class="box">
+<div class="imgbox">
+ <img src="WL3.jpg">
+</div>
+<div class="content">
+<div>
+<h2>
+
+</h2>
+<p></p>
+<a href="SHREDDED NEXT LEVEL.html"><b>START</b></a>
+</div>
+</div>
+
+</div>
+<div class="box">
+<div class="imgbox">
+ <img src="WL4.jpg">
+</div>
+<div class="content">
+<div>
+<h2>
+
+</h2>
+<p></p>
+<a href="OBESE 60.html"><b>START</b></a>
+</div>
+</div>
+
+</div>
+<div class="box">
+<div class="imgbox">
+ <img src="WL5.jpg">
+</div>
+<div class="content">
+<div>
+<h2>
+</h2>
+<p></p>
+<a href="SHARP.html"><b>START</b></a>
+</div>
+</div>
+
+</div>
+<div class="box">
+<div class="imgbox">
+ <img src="WL6.jpg">
+</div>
+<div class="content">
+<div>
+<h2>
+
+</h2>
+<p></p>
+<a href="MUSCLEMANN.html"><b>START</b></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="footer">
+		    <div class="inner-footer">
+			    <div class="footer-item">
+				    <h1>GYM OBSESSED</h1>
+					    <p>Just like in bodybuilding, failure is also a necessary
+						experience for growth in our own lives, for if we’re never
+						tested to our limits,how will we know how strong we really
+						are? How will we ever grow? – Arnold Schwarzenegger
+					    </p>	
+				</div>
+				
+				<div class="footer-item">
+				    <h2>Quick Links</h2>
+					    <div class="border"></div>
+						    <ul>
+							    <a href="#"><li>Home</li></a>
+								<a href="#"><li>About Us</li></a>
+								<a href="#"><li>Contact US</li></a>
+								<a href="#"><li>Privacy Policy</li></a>
+							</ul>
+				</div>
+				
+				<div class="footer-item">
+				    <h2>Tutorials</h2>
+					    <div class="border"></div>
+						    <ul>
+							    <a href="#"><li>GYM1</li></a>
+								<a href="#"><li>GYM2</li></a>
+								<a href="#"><li>GYM3</li></a>
+								<a href="#"><li>GYM4</li></a>
+							</ul>
+				</div>
+				
+				<div class="footer-item">
+				    <h2>Contact Us</h2>
+					    <div class="border"></div>
+						    <ul>
+							    <li><i class="fa fa-map-marker" aria-hidden="true"></i>1,XYZ Street,New Delhi</li>
+								<li><i class="fa fa-phone" aria-hidden="true"></i>1234567890</li>
+								<li><i class="fa fa-envelope" aria-hidden="true"></i>abcdef@gmail.com</li>
+							</ul>
+							
+							<div class="social-media">
+							    <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+							</div>
+				</div>	
+			</div>
+			
+			    <div class="footer-bottom">
+				    <pre>                                                          Copyright &copy Gymnasium 2019. All rights reserved.</pre>
+				</div>	
+		 </div>
+
+</body>
+</html>
