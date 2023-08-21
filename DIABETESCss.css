@@ -1,0 +1,278 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body {
+  
+}
+.title{
+	padding-left: 15px;
+	background-color: black;
+}
+.title b{
+	font-size: 65px;
+	font-weight: bold;
+	color: #8BC34A;
+}
+
+#container{
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+#container ul{
+	float: right;
+	margin-right: 20px;
+}
+#container ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+#container ul li a{
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+}
+#container ul li a:hover{
+	background: #8BC34A;
+	border-radius: 2px;
+}
+
+.header {
+   background: url(DIABETES.jpg);
+   background-size: cover;
+   height:100vh;
+}
+.row {  
+margin-top:0px; 
+  display: flex;
+
+}
+
+
+.side {
+  -ms-flex: 20%; 
+  flex: 20%;
+  background-color:grey;
+  padding: 0px;
+  width:25%;
+   background: black;
+   }
+.side{
+color:white;
+}
+img{
+margin:10px;
+
+}
+.main {   
+
+
+  width:75%;
+
+  background: black;
+
+}  
+
+.main h1{
+text-align:left;
+padding-top:1px;
+font-family:courier;
+color:white;
+}
+
+.main p{
+text-align:left;
+padding-top:1px;
+font-family:courier;
+color:white;
+}
+
+.footer{
+	width: 100%;
+	background: #000;
+	display: block;
+}
+
+.inner-footer{
+	width: 95%;
+	margin: auto;
+	padding: 30px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	justify-content: center;
+}
+
+.footer-item{
+	width: 25%;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+h1{
+	padding: 10px 0;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.footer-item p{
+	color: grey;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+}
+
+h2{
+	margin: 10px 0;
+	color: white;
+	font-size: 16px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.border{
+	height: 2px;
+	width: 40px;
+	background: #8BC34A;
+}
+
+ul{
+	list-style: none;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+ul a{
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	transition: 0.3s;
+}
+ul li{
+	margin: 10px;
+	height: 25px;
+}
+ul a li:hover{
+	color: #8BC34A;
+}
+
+li i{
+	margin-right: 20px;
+}
+
+.social-media{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.social-media a{
+	text-decoration: none;
+}
+
+.social-media i{
+	height: 15px;
+	width: 15px;
+	margin: 20px 5px;
+	padding: 10px;
+	color: #fff;
+	border-radius: 50%;
+	border: 1px solid grey;
+	transition: 0.3s;
+}
+
+.social-media i:hover{
+	background: #8BC34A;
+}
+
+.footer-bottom{
+	padding: 10px;
+	background: #3d545f;
+	color: #fff;
+	font-size: 15px;
+}
+
+
+.cards{
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.servicess{
+  display: flex;
+  align-items: center;
+}
+.contentt{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all .3s ease;
+}
+
+.contentt .far{
+	font-size: 70px;
+	margin: 16px 0;
+}
+.contentt .fas{
+	font-size: 70px;
+	margin: 16px 0;
+}
+.contentt > *{
+  flex: 1 1 100%;
+}
+.contentt:hover{
+  color: white;
+}
+.contentt-1:hover{
+  border-color: #1DA1F2;
+  background: #1DA1F2;
+}
+.contentt-2:hover{
+  border-color: #E1306C;
+  background: #E1306C;
+}
+.contentt-3:hover{
+  border-color: #8BC34A;
+  background: #8BC34A;
+}
+.contentt h2{
+  font-size: 30px;
+  margin: 16px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.contentt p{
+  font-size: 17px;
+  font-family: 'Poppins',sans-serif;
+}
+@media (max-width: 900px) {
+  .servicess{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
